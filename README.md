@@ -82,6 +82,7 @@ where countries = 'Nigeria'
 Group by Brands
 order by 2 desc
 ```
+![Screenshot (230)](https://github.com/user-attachments/assets/0938c991-a47b-488b-8b15-8b0ba113672c)
 
 - **Calculate the Total Profit for Hero brands**
 ```SQL
@@ -90,8 +91,9 @@ where countries = 'Nigeria' and years = '2017' and brands ='Hero'
 --Group by Brands
 --order by 2 desc
 ```
+![Screenshot (231)](https://github.com/user-attachments/assets/7016eb5e-794c-4e34-ab09-f974b96b82d0)
 
-- **Categorise the 5 countries into their language**
+- **Categorize the 5 countries into their language**
 ```SQL
 SELECT countries,
       CASE
@@ -103,3 +105,5 @@ where years in ('2017', '2018', '2019')
 Group by Countries
 order by 3 desc
 ```
+![Screenshot (232)](https://github.com/user-attachments/assets/f6d76697-0b37-4001-a550-92a10e15e4e2)
+
