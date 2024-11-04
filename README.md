@@ -112,7 +112,16 @@ order by 3 desc
 ![Screenshot (232)](https://github.com/user-attachments/assets/f6d76697-0b37-4001-a550-92a10e15e4e2)
 
 ## Data Visualization
-Pivote Table
-Filtered Column Chart for Year 2017
+### Pivot Table
+![Screenshot (224)](https://github.com/user-attachments/assets/30ebf30d-9f92-411c-9b6b-543d0c45249c)
+
+### Filtered Column Chart for Year 2017
+![Screenshot (221)](https://github.com/user-attachments/assets/189d3d1c-825c-40bf-a502-45355ae5f34a)
+
+### Filtered Column Chart for Year 2018
+![Screenshot (222)](https://github.com/user-attachments/assets/3d3b3614-ba0a-413e-b923-dd96323ee525)
+
+### Filtered Column Chart for Year 2019
+![Screenshot (223)](https://github.com/user-attachments/assets/bb0c7024-5932-45d5-b408-741350115da9)
 
 
