@@ -42,35 +42,53 @@ EDA invoved the exploring of Data to answer some questions about the Data which 
 - Calculate the Total Profit for Nigeria in 2019
 - Calculate the Total Profit for Nigeria in 2017
 - Calculate the Total Profit for Nigeria
+- Calculate the Total Profit for Hero brands
 
----to get total profit----
+- **Calculate the Total Profits**
+```SQL
 select sum(profit) as TotalProfit from International_Breweries
----to get totalprofit for senegal------
+```
+
+- **Calculate the Total Profit for senegal**
+```SQL
 select sum(profit) as TotalProfit from International_Breweries
 where countries = 'Senegal'
---to get total for Nigeria in 2019---
+```
+
+- **Calculate the Total Profit for Nigeria in 2019**
+```SQL
 select sum(profit) as TotalProfit from International_Breweries
 where countries = 'Nigeria' and YEARs = '2019'
-----
+```
+
+- **Calculate the Total Profit for Nigeria in 2017**
+```SQL
 select Brands, sum(profit) as TotalProfit 
 from International_Breweries
 where countries = 'Nigeria' and years = '2017'
 Group by Brands
 order by 2 desc
+```
 
+- **Calculate the Total Profit for Nigeria**
+```SQL
 select Brands, sum(profit) as TotalProfit 
 from International_Breweries
 where countries = 'Nigeria' 
 Group by Brands
 order by 2 desc
+```
 
-
-----to get totalprofit for Hero brands-----
+- **Calculate the Total Profit for Hero brands**
+```SQL
 select  sum(profit) as TotalProfitHero from International_Breweries
 where countries = 'Nigeria' and years = '2017' and brands ='Hero'
 --Group by Brands
 --order by 2 desc
-Categorise the 5 countries into their language
+```
+
+- **Categorise the 5 countries into their language**
+```SQL
 SELECT countries,
       CASE
 	     WHEN COUNTRIES IN ('Nigeria', 'Ghana') then 'Anglophone'
@@ -80,4 +98,4 @@ sum(Profit) as TotalProfit from international_breweries
 where years in ('2017', '2018', '2019')
 Group by Countries
 order by 3 desc
-s
+```
