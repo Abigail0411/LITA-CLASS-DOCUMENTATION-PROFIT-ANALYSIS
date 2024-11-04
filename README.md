@@ -48,18 +48,21 @@ EDA invoved the exploring of Data to answer some questions about the Data which 
 ```SQL
 select sum(profit) as TotalProfit from International_Breweries
 ```
+![Screenshot (226)](https://github.com/user-attachments/assets/668b969e-bd8c-4cf3-bac3-0b8ee349eebc)
 
 - **Calculate the Total Profit for senegal**
 ```SQL
 select sum(profit) as TotalProfit from International_Breweries
 where countries = 'Senegal'
 ```
+![Screenshot (227)](https://github.com/user-attachments/assets/f6ce974b-02d1-4977-86e0-f3fcd7659662)
 
 - **Calculate the Total Profit for Nigeria in 2019**
 ```SQL
 select sum(profit) as TotalProfit from International_Breweries
 where countries = 'Nigeria' and YEARs = '2019'
 ```
+![Screenshot (228)](https://github.com/user-attachments/assets/31cebb4e-7144-46a1-9fbc-b7485c63764f)
 
 - **Calculate the Total Profit for Nigeria in 2017**
 ```SQL
@@ -69,6 +72,7 @@ where countries = 'Nigeria' and years = '2017'
 Group by Brands
 order by 2 desc
 ```
+![Screenshot (229)](https://github.com/user-attachments/assets/31535ec9-dd9d-472b-9da8-4aa0a0392bbe)
 
 - **Calculate the Total Profit for Nigeria**
 ```SQL
