@@ -1,6 +1,9 @@
 # LITA-CLASS-DOCUMENTATION-PROFIT-ANALYSIS
 
-### Data Sources
+## Project Overview
+The project analyzes the profit of International Breweries in differerent counntries.
+
+## Data Sources
 ---
 The dataset was sourced from the Sales Records of International Breweries. The dataset includes information about the following:
 - Sales ID
@@ -19,7 +22,7 @@ The dataset was sourced from the Sales Records of International Breweries. The d
 
   
 
-### Tools Used
+### Data Tools Used
 ---
 - Microsoft Excel [Download Here](https://wwww.microsoft.com)
   1. For Data Cleaning
