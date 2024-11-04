@@ -124,4 +124,7 @@ order by 3 desc
 ### Filtered Column Chart for Year 2019
 ![Screenshot (223)](https://github.com/user-attachments/assets/bb0c7024-5932-45d5-b408-741350115da9)
 
+### 1. Overall Profit Overview
+- Profits generated decreased in 2018 and 2019 as compaired to 2017 as seen in the Column Charts above.
+  
 
