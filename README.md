@@ -1,9 +1,26 @@
 # LITA-CLASS-DOCUMENTATION-PROFIT-ANALYSIS
+---
+
+## Context
+[Project Overview](#project-overview)
+
+[Data Source](#data-source)
+
+[Data Tools Used](#data-tools-used)
+
+[Data Cleaning and Preparations](#data-cleaning-and-preparations)
+
+[Exploratory Data Analysis](#exploratory-data-analysis)
+
+[Data Analysis](#data-analysis)
+
+[Data Visualization](#data-visualization)
 
 ## Project Overview
+---
 The project analyzes the profit of International Breweries in differerent counntries.
 
-## Data Sources
+## Data Source
 ---
 The dataset was sourced from the Sales Records of International Breweries. The dataset includes information about the following:
 - Sales ID
@@ -112,7 +129,8 @@ order by 3 desc
 ![Screenshot (232)](https://github.com/user-attachments/assets/f6d76697-0b37-4001-a550-92a10e15e4e2)
 
 ## Data Visualization
-### Pivot Table
+---
+### Pivot Table for Brands by Total Profit
 ![Screenshot (224)](https://github.com/user-attachments/assets/30ebf30d-9f92-411c-9b6b-543d0c45249c)
 
 ### Filtered Column Chart for Year 2017
@@ -124,7 +142,13 @@ order by 3 desc
 ### Filtered Column Chart for Year 2019
 ![Screenshot (223)](https://github.com/user-attachments/assets/bb0c7024-5932-45d5-b408-741350115da9)
 
-### 1. Overall Profit Overview
+## 1. Overall Profit Overview
 - Profits generated decreased in 2018 and 2019 as compaired to 2017 as seen in the Column Charts above.
-  
+## 2. Inferences
+- The decline in profits indicate reduced demand and increased competition.
+- Castle lite and Budweiser are the two leading brands in the company indicating that its quality makes it dominate the maket.
+
+## 3. Strategic Recommendation
+- The company should review the prices of the brands and make them competitive.
+- They should also invest more in the two leading brands inorder to maintain the strong market.
 
