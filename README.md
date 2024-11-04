@@ -22,7 +22,7 @@ The dataset was sourced from the Sales Records of International Breweries. The d
 
   
 
-### Data Tools Used
+## Data Tools Used
 ---
 - Microsoft Excel [Download Here](https://wwww.microsoft.com)
   1. For Data Cleaning
@@ -30,14 +30,14 @@ The dataset was sourced from the Sales Records of International Breweries. The d
   3. For Visualization- Pivot tables, PieChart and Cloumn chart were used to visually represent key insights
 - Structured Query Language(SQL) for Quering of Data
 
-### Data Cleaning and Preparations
+## Data Cleaning and Preparations
 ---
 In the initial phase of the Data Cleaning and preparations,the following actions were performed;
 1. Data loading and Inspection
 2. Handling missing variables
 3. Data Cleaning and formating
 
-### Exploratory Data Analysis
+## Exploratory Data Analysis
 ---
 EDA invoved the exploring of Data to answer some questions about the Data which are as follows;
 - Calculate the Total Profits
@@ -46,7 +46,8 @@ EDA invoved the exploring of Data to answer some questions about the Data which 
 - Calculate the Total Profit for Nigeria in 2017
 - Calculate the Total Profit for Nigeria
 - Calculate the Total Profit for Hero brands
-
+  
+### SQL Query Used
 - **Calculate the Total Profits**
 ```SQL
 select sum(profit) as TotalProfit from International_Breweries
@@ -109,4 +110,9 @@ Group by Countries
 order by 3 desc
 ```
 ![Screenshot (232)](https://github.com/user-attachments/assets/f6d76697-0b37-4001-a550-92a10e15e4e2)
+
+## Data Visualization
+Pivote Table
+Filtered Column Chart for Year 2017
+
 
